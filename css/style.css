@@ -1,11 +1,13 @@
 ::placeholder{
-  text-align: center;
-  font-size: 14px;
-  color: gray;
-  background-size: 6%;
+  font-size: 18px;
+  color: #A7B7DC;
+  background-size: 5%;
   background-image: url(/assets/search-solid.svg);
   background-repeat: no-repeat;
-  background-position: 60px;
+  background-position: 0px;
+}
+:active::placeholder{
+  content: none;
 }
 
 input.empty {
@@ -14,6 +16,7 @@ input.empty {
     font-weight: normal;
     text-decoration: inherit;
     background-color: #FAFAFA;
+    width: auto;
 }
 
 .postuserfont {
@@ -22,6 +25,11 @@ input.empty {
   color: black;
 }
 
+.takipet{
+  float: right;
+}
+
+
 
 .storyphoto {
   width: 60px;
@@ -29,6 +37,7 @@ input.empty {
   border-radius: 50%;
   border: 2px solid rgb(238, 39, 82);
   margin-right: 7px;
+  
 }
 
 .storytext {
