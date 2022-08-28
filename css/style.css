@@ -6,9 +6,6 @@
   background-repeat: no-repeat;
   background-position: 0px;
 }
-:active::placeholder{
-  content: none;
-}
 
 input.empty {
     font-family: FontAwesome;
@@ -47,12 +44,12 @@ input.empty {
 }
 
 .rightpanellinks {
-  text-decoration: none;
+  text-decoration:none;
   color: lightgrey;
 }
 
 .rightpanellinks:hover {
-  text-decoration: none;
+  text-decoration:underline;
   color: lightgrey;
 }
 
